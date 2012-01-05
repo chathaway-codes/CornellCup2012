@@ -1,0 +1,1 @@
+This folder should contain; html templates, javascript testing codes, and pictures. It will be merged with the PHP at a later time.

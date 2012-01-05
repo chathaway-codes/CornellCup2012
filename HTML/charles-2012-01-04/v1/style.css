@@ -1,0 +1,46 @@
+body { /* Global settings */
+	background: #00ffff;
+	color: #00B3B3;
+}
+
+div#body { /* Body settings */
+	margin: 0px 0px 0px 0px;
+	width: 1024px;
+	height: 768px;
+}
+
+div#newDrink { /* Button for the new drink */
+	color: #FF5500;
+	width: 512px;
+	height: 768px;
+	background: #D92400;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+div#selectDrink { /* Button to select an already existing drink */
+	color: #D92400;
+	width: 512px;
+	height: 768px;
+	background: #FF5500;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	
+	position: absolute;
+	left: 512px;
+	top: 0px;
+}
+
+div.centeredText { /* All text that needs to be centered */
+	text-align: center;
+	
+	width: 100%;
+	height: 768px;
+	
+	position: absolute;
+	top: 20%;
+}
