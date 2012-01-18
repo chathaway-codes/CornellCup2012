@@ -1,0 +1,11 @@
+
+**** Build of configuration Build (GNU) for project QtTesting ****
+
+make all 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/charles/Programming/CornellCup/Codes/QtTesting/missing --run aclocal-1.11 
+ cd . && /bin/sh /home/charles/Programming/CornellCup/Codes/QtTesting/missing --run automake-1.11 --gnu
+automake-1.11: no `Makefile.am' found for any configure output
+automake-1.11: Did you forget AC_CONFIG_FILES([Makefile]) in configure.ac?
+make: *** [Makefile.in] Error 1
+
+**** Build Finished ****

@@ -1,0 +1,32 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ([2.68])
+AC_INIT(CharlesQtTesting, 0.01, charles@cornell.logrit.com)
+AC_CONFIG_SRCDIR([src/HelloNotepad.cpp])
+PKG_PROG_PKG_CONFIG(0.20)
+
+PACKAGE=CharlesQtTesting
+VERSION=0.0.1
+AM_INIT_AUTOMAKE($PACKAGE, $VERSION) 
+
+
+# Checks for programs.
+AC_PROG_CXX
+AC_PROG_CC
+#AC_CHECK_PROG(QMAKE, qmake, [/usr/bin/qmake], "qmake not found in path", [$QTDIR/bin])
+
+# Checks for libraries.
+
+PKG_CHECK_MODULES(QT, [QtCore >= 4.6, QtGui >= 4.6, QtMultimedia >= 4.6])
+AC_SUBST(QT_CFLAGS)
+AC_SUBST(QT_LIBS)
+
+# Checks for header files.
+
+# Checks for typedefs, structures, and compiler characteristics.
+
+# Checks for library functions.
+
+AC_OUTPUT(Makefile src/Makefile)
+

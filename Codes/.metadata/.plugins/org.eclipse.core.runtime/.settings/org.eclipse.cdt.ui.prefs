@@ -1,0 +1,36 @@
+#Tue Jan 17 19:11:22 EST 2012
+nameStyle.constant.suffix=
+sourceHoverBackgroundColor=214,210,208
+nameStyle.getter.suffix=
+spelling_locale_initialized=true
+content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
+org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.eclipse.cdt.ui.text.codetemplates.filecomment_context" deleted\="false" description\="Comment for created C/C++ files" enabled\="true" id\="org.eclipse.cdt.ui.text.codetemplates.filecomment" name\="filecomment">/*\n * Copyright (C) ${year} ${user}\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy of\n * this software and associated documentation files (the "Software"), to deal in\n * the Software without restriction, including without limitation the rights to\n * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n * of the Software, and to permit persons to whom the Software is furnished to do\n * so, subject to the following conditions\:\n *\n * The above copyright notice and this permission notice shall be included in all\n * copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n * SOFTWARE.\n */\n\n/*\n * ${file_name}\n *\n *  Created on\: ${date}\n *  Author\: ${user}\n */</template></templates>
+nameStyle.cpp.test.wordDelimiter=
+nameStyle.setter.prefix=set
+nameStyle.variable.prefix=
+nameStyle.field.suffix=
+nameStyle.cpp.source.wordDelimiter=
+nameStyle.getter.prefixForBoolean=is
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+nameStyle.variable.wordDelimiter=
+org.eclipse.cdt.ui.text.templates.custom=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+nameStyle.getter.wordDelimiter=
+nameStyle.cpp.test.suffix=_test.cpp
+hoverModifiers=org.eclipse.cdt.ui.BestMatchHover;0;org.eclipse.cdt.debug.internal.ui.editors.DebugTextHover;\!0;org.eclipse.cdt.ui.ProblemHover;\!0;org.eclipse.cdt.ui.CDocHover;\!0;org.eclipse.cdt.ui.CMacroExpansionHover;\!0;org.eclipse.cdt.ui.CSourceHover;Shift;org.eclipse.cdt.ui.AnnotationHover;\!0;
+nameStyle.cpp.header.prefix=
+nameStyle.constant.wordDelimiter=_
+nameStyle.cpp.source.prefix=
+nameStyle.field.wordDelimiter=
+hoverModifierMasks=org.eclipse.cdt.ui.BestMatchHover;0;org.eclipse.cdt.debug.internal.ui.editors.DebugTextHover;0;org.eclipse.cdt.ui.ProblemHover;0;org.eclipse.cdt.ui.CDocHover;0;org.eclipse.cdt.ui.CMacroExpansionHover;0;org.eclipse.cdt.ui.CSourceHover;131072;org.eclipse.cdt.ui.AnnotationHover;0;
+nameStyle.variable.suffix=
+nameStyle.setter.suffix=
+nameStyle.getter.prefix=get
+nameStyle.constant.prefix=
+nameStyle.setter.wordDelimiter=
+nameStyle.cpp.header.wordDelimiter=
+nameStyle.cpp.header.suffix=.h
+useQuickDiffPrefPage=true
+nameStyle.field.prefix=
+nameStyle.cpp.source.suffix=.cpp
+nameStyle.cpp.test.prefix=

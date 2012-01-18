@@ -1,0 +1,19 @@
+To make the GNU automake system to work, you will need to create:
+A configure.ac file the one in QtTesting.tar.gz
+  Incluces a depedency on Qt
+A Makefile.am file the one in QtTest.tar.gz 
+  And one in each directory with sources, like src/Makefile.am in that archive)
+
+You also need to make sure the following files exist: AUTHORS NEWS README ChangeLog
+  These can be touched via; touch AUTHORS NEWS README ChangeLog
+Then run the following commands
+
+aclocal
+autoconf
+automake --add-missing
+
+Now when you hand out a tarball of your program, all the user needs to do is run...
+
+./configure
+make
+sudo make install

@@ -1,0 +1,32 @@
+!SESSION 2012-01-17 18:54:06.228 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_147-icedtea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-17 18:56:00.477
+!MESSAGE Indexed 'HelloEclipse' (0 sources, 74 headers) in 0.95 sec: 2,139 declarations; 2,359 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-17 19:02:44.035
+!MESSAGE Indexed 'HelloEclipse' (1 sources, 74 headers) in 0.53 sec: 2,139 declarations; 2,359 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-01-17 19:08:48.576 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_147-icedtea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-17 19:13:19.663
+!MESSAGE Indexed 'QtTesting' (0 sources, 74 headers) in 0.60 sec: 2,139 declarations; 2,359 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-17 19:18:32.045
+!MESSAGE Indexed 'QtTesting' (1 sources, 74 headers) in 0.36 sec: 2,144 declarations; 2,363 references; 2 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.09%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-17 20:32:27.511
+!MESSAGE Indexed 'HelloAutoTools' (1 sources, 146 headers) in 1.98 sec: 10,245 declarations; 15,378 references; 0 unresolved inclusions; 7 syntax errors; 71 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-01-17 20:36:09.813
+!MESSAGE Indexed 'ROBD_Testing' (1 sources, 146 headers) in 1.50 sec: 10,245 declarations; 15,378 references; 0 unresolved inclusions; 7 syntax errors; 71 unresolved names (0.28%)

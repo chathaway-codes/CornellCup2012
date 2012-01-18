@@ -1,0 +1,15 @@
+
+**** Build of configuration Build (GNU) for project HelloAutoTools ****
+
+make all 
+Making all in src
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/HelloAutoTools/src'
+g++ -DPACKAGE_NAME=\"HelloAutoTools\" -DPACKAGE_TARNAME=\"helloautotools\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"HelloAutoTools\ 1.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"helloautotools\" -DVERSION=\"1.0\" -I.     -g -O2 -MT HelloAutoTools.o -MD -MP -MF .deps/HelloAutoTools.Tpo -c -o HelloAutoTools.o HelloAutoTools.cpp
+mv -f .deps/HelloAutoTools.Tpo .deps/HelloAutoTools.Po
+g++  -g -O2   -o a.out HelloAutoTools.o  
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/HelloAutoTools/src'
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/HelloAutoTools'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/HelloAutoTools'
+
+**** Build Finished ****
