@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ROBD/globals&apos; to &apos;globals.hpp&apos;" description="Rename resource &apos;globals&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="globals" name="globals.hpp" stamp="1327801431629" updateReferences="true"/>
+</session>

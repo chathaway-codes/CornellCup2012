@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+  <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/usr/bin/qmake"/>
+</launchConfiguration>
