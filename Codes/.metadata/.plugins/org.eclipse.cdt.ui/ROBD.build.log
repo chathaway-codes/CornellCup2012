@@ -1,0 +1,10 @@
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'

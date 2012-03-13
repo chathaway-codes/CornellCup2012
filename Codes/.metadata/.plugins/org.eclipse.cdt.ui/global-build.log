@@ -13,3 +13,408 @@ make[1]: Nothing to be done for `all-am'.
 make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD_Testing'
 
 **** Build Finished ****
+/usr/bin/qmake -recursive CONFIG+=debug_and_release ROBD.pro 
+make clean 
+make -f Makefile.Release clean
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+rm -f release/main.o
+rm -f *~ core *.core
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make -f Makefile.Debug clean
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+rm -f debug/main.o
+rm -f *~ core *.core
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+/usr/bin/qmake -recursive CONFIG+=debug_and_release ROBD.pro 
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make[1]: Nothing to be done for `first'.
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+/usr/bin/qmake CONFIG+=debug_and_release -o Makefile ROBD.pro
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/STDIO_Filter.o STDIO_Filter.cpp
+In file included from STDIO_Filter.hpp:33:0,
+                 from STDIO_Filter.cpp:33:
+IO_Thread.hpp:80:9: error: expected ‘:’ before ‘void’
+IO_Thread.hpp:83:31: error: invalid in-class initialization of static data member of non-integral type ‘IO_Thread*’
+STDIO_Filter.cpp:40:6: warning: unused parameter ‘id’ [-Wunused-parameter]
+make[1]: *** [debug/STDIO_Filter.o] Error 1
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/STDIO_Filter.o STDIO_Filter.cpp
+In file included from STDIO_Filter.hpp:33:0,
+                 from STDIO_Filter.cpp:33:
+IO_Thread.hpp:83:31: error: invalid in-class initialization of static data member of non-integral type ‘IO_Thread*’
+STDIO_Filter.cpp:40:6: warning: unused parameter ‘id’ [-Wunused-parameter]
+make[1]: *** [debug/STDIO_Filter.o] Error 1
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/STDIO_Filter.o STDIO_Filter.cpp
+STDIO_Filter.cpp:40:6: warning: unused parameter ‘id’ [-Wunused-parameter]
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+IO_Thread.cpp: In member function ‘virtual void IO_Thread::run()’:
+IO_Thread.cpp:61:8: error: ‘queue’ was not declared in this scope
+IO_Thread.cpp:61:8: note: suggested alternative:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_queue.h:92:11: note:   ‘std::queue’
+IO_Thread.cpp:63:7: error: ‘list’ was not declared in this scope
+IO_Thread.cpp:63:7: note: suggested alternative:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:429:11: note:   ‘std::list’
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+IO_Thread.cpp:63:21: error: expected primary-expression before ‘>’ token
+IO_Thread.cpp:63:22: error: ‘::iterator’ has not been declared
+IO_Thread.cpp:63:22: note: suggested alternatives:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_iterator_base_types.h:119:12: note:   ‘std::iterator’
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_iterator_base_types.h:119:12: note:   ‘std::iterator’
+IO_Thread.cpp:63:33: error: expected ‘;’ before ‘it’
+IO_Thread.cpp:63:61: error: ‘it’ was not declared in this scope
+IO_Thread.cpp: At global scope:
+IO_Thread.cpp:89:24: error: no ‘void IO_Thread::cleaup()’ member function declared in class ‘IO_Thread’
+IO_Thread.hpp:83:20: error: ‘IO_Thread* IO_Thread::instance’ is private
+IO_Thread.cpp:95:12: error: within this context
+IO_Thread.cpp:95:1: error: ‘instance’ in ‘class IO_Thread’ does not name a type
+make[1]: *** [debug/IO_Thread.o] Error 1
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+IO_Thread.cpp: In member function ‘virtual void IO_Thread::run()’:
+IO_Thread.cpp:63:13: error: missing template arguments before ‘.’ token
+IO_Thread.cpp:65:58: error: conversion from ‘std::list<IO_Filter*>::iterator {aka std::_List_iterator<IO_Filter*>}’ to non-scalar type ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ requested
+IO_Thread.cpp:65:79: error: no match for ‘operator!=’ in ‘it != ((IO_Thread*)this)->IO_Thread::filters.std::list<_Tp, _Alloc>::end [with _Tp = IO_Filter*, _Alloc = std::allocator<IO_Filter*>, std::list<_Tp, _Alloc>::iterator = std::_List_iterator<IO_Filter*>]()’
+IO_Thread.cpp:65:79: note: candidates are:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:186:7: note: bool std::_List_iterator<_Tp>::operator!=(const _Self&) const [with _Tp = IO_Filter, std::_List_iterator<_Tp>::_Self = std::_List_iterator<IO_Filter>]
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:186:7: note:   no known conversion for argument 1 from ‘std::list<IO_Filter*>::iterator {aka std::_List_iterator<IO_Filter*>}’ to ‘const _Self& {aka const std::_List_iterator<IO_Filter>&}’
+/usr/include/QtCore/qglobal.h:1989:13: note: bool operator!=(QBool, bool)
+/usr/include/QtCore/qglobal.h:1989:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QBool’
+/usr/include/QtCore/qglobal.h:1990:13: note: bool operator!=(bool, QBool)
+/usr/include/QtCore/qglobal.h:1990:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘bool’
+/usr/include/QtCore/qglobal.h:1991:13: note: bool operator!=(QBool, QBool)
+/usr/include/QtCore/qglobal.h:1991:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QBool’
+/usr/include/QtCore/qchar.h:389:13: note: bool operator!=(QChar, QChar)
+/usr/include/QtCore/qchar.h:389:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QChar’
+/usr/include/QtCore/qbytearray.h:533:13: note: bool operator!=(const QByteArray&, const QByteArray&)
+/usr/include/QtCore/qbytearray.h:533:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QByteArray&’
+/usr/include/QtCore/qbytearray.h:535:13: note: bool operator!=(const QByteArray&, const char*)
+/usr/include/QtCore/qbytearray.h:535:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QByteArray&’
+/usr/include/QtCore/qbytearray.h:537:13: note: bool operator!=(const char*, const QByteArray&)
+/usr/include/QtCore/qbytearray.h:537:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:911:13: note: bool operator!=(QString::Null, QString::Null)
+/usr/include/QtCore/qstring.h:911:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QString::Null’
+/usr/include/QtCore/qstring.h:912:13: note: bool operator!=(QString::Null, const QString&)
+/usr/include/QtCore/qstring.h:912:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QString::Null’
+/usr/include/QtCore/qstring.h:913:13: note: bool operator!=(const QString&, QString::Null)
+/usr/include/QtCore/qstring.h:913:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QString&’
+/usr/include/QtCore/qstring.h:938:32: note: bool operator!=(const char*, const QString&)
+/usr/include/QtCore/qstring.h:938:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:951:32: note: bool operator!=(const char*, const QLatin1String&)
+/usr/include/QtCore/qstring.h:951:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:964:13: note: bool operator!=(const QLatin1String&, const QLatin1String&)
+/usr/include/QtCore/qstring.h:964:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QLatin1String&’
+/usr/include/QtCore/qstring.h:1203:13: note: bool operator!=(const QStringRef&, const QStringRef&)
+/usr/include/QtCore/qstring.h:1203:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qstring.h:1206:13: note: bool operator!=(const QString&, const QStringRef&)
+/usr/include/QtCore/qstring.h:1206:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QString&’
+/usr/include/QtCore/qstring.h:1210:13: note: bool operator!=(const QStringRef&, const QString&)
+/usr/include/QtCore/qstring.h:1210:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qstring.h:1213:13: note: bool operator!=(const QLatin1String&, const QStringRef&)
+/usr/include/QtCore/qstring.h:1213:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QLatin1String&’
+/usr/include/QtCore/qstring.h:1217:13: note: bool operator!=(const QStringRef&, const QLatin1String&)
+/usr/include/QtCore/qstring.h:1217:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qstring.h:1240:32: note: bool operator!=(const char*, const QStringRef&)
+/usr/include/QtCore/qstring.h:1240:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:1242:32: note: bool operator!=(const QStringRef&, const char*)
+/usr/include/QtCore/qstring.h:1242:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qscopedpointer.h:180:13: note: template<class T, class Cleanup> bool operator!=(const QScopedPointer<T, Cleanup>&, const QScopedPointer<T, Cleanup>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_queue.h:290:5: note: template<class _Tp, class _Seq> bool std::operator!=(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_vector.h:1297:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_deque.h:1943:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_deque.h:266:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator!=(const std::_Deque_iterator<_Tp, _RefL, _PtrL>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_deque.h:259:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:1600:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::list<_Tp, _Alloc>&, const std::list<_Tp, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:281:5: note: template<class _Val> bool std::operator!=(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Val>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stream_iterator.h:137:5: note: template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator!=(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/streambuf_iterator.h:200:5: note: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2497:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2485:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2473:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/allocator.h:137:5: note: template<class _Tp> bool std::operator!=(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/allocator.h:132:5: note: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_T1>&, const std::allocator<_Tp>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/postypes.h:223:5: note: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_iterator.h:347:5: note: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_iterator.h:297:5: note: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_pair.h:214:5: note: template<class _T1, class _T2> bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+IO_Thread.cpp:66:12: error: base operand of ‘->’ has non-pointer type ‘IO_Filter’
+IO_Thread.cpp:66:28: error: missing template arguments before ‘.’ token
+IO_Thread.cpp:66:52: error: missing template arguments before ‘.’ token
+IO_Thread.cpp:67:10: error: base operand of ‘->’ has non-pointer type ‘IO_Filter’
+IO_Thread.cpp:67:24: error: missing template arguments before ‘.’ token
+IO_Thread.cpp:67:48: error: missing template arguments before ‘.’ token
+IO_Thread.cpp:67:69: error: missing template arguments before ‘.’ token
+IO_Thread.cpp:70:15: error: missing template arguments before ‘.’ token
+IO_Thread.cpp:71:8: error: missing template arguments before ‘.’ token
+IO_Thread.cpp: At global scope:
+IO_Thread.cpp:91:24: error: no ‘void IO_Thread::cleaup()’ member function declared in class ‘IO_Thread’
+IO_Thread.hpp:83:20: error: ‘IO_Thread* IO_Thread::instance’ is private
+IO_Thread.cpp:97:12: error: within this context
+IO_Thread.cpp:97:1: error: ‘instance’ in ‘class IO_Thread’ does not name a type
+In file included from /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/list:64:0,
+                 from /usr/include/QtCore/qlist.h:51,
+                 from /usr/include/QtCore/qobject.h:50,
+                 from /usr/include/QtCore/qthread.h:45,
+                 from /usr/include/QtCore/QThread:1,
+                 from IO_Thread.hpp:33,
+                 from IO_Thread.cpp:31:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h: In instantiation of ‘std::_List_node<IO_Filter>’:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:145:46:   instantiated from ‘_Tp& std::_List_iterator<_Tp>::operator*() const [with _Tp = IO_Filter, std::_List_iterator<_Tp>::reference = IO_Filter&]’
+IO_Thread.cpp:66:9:   instantiated from here
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:108:11: error: cannot declare field ‘std::_List_node<IO_Filter>::_M_data’ to be of abstract type ‘IO_Filter’
+IO_Thread.hpp:55:7: note:   because the following virtual functions are pure within ‘IO_Filter’:
+IO_Thread.hpp:58:15: note: 	virtual bool IO_Filter::applies(LogLevel, char*)
+IO_Thread.hpp:59:15: note: 	virtual void IO_Filter::write(LogLevel, char*, char*)
+make[1]: *** [debug/IO_Thread.o] Error 1
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+IO_Thread.cpp: In member function ‘virtual void IO_Thread::run()’:
+IO_Thread.cpp:65:58: error: conversion from ‘std::list<IO_Filter*>::iterator {aka std::_List_iterator<IO_Filter*>}’ to non-scalar type ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ requested
+IO_Thread.cpp:65:79: error: no match for ‘operator!=’ in ‘it != ((IO_Thread*)this)->IO_Thread::filters.std::list<_Tp, _Alloc>::end [with _Tp = IO_Filter*, _Alloc = std::allocator<IO_Filter*>, std::list<_Tp, _Alloc>::iterator = std::_List_iterator<IO_Filter*>]()’
+IO_Thread.cpp:65:79: note: candidates are:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:186:7: note: bool std::_List_iterator<_Tp>::operator!=(const _Self&) const [with _Tp = IO_Filter, std::_List_iterator<_Tp>::_Self = std::_List_iterator<IO_Filter>]
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:186:7: note:   no known conversion for argument 1 from ‘std::list<IO_Filter*>::iterator {aka std::_List_iterator<IO_Filter*>}’ to ‘const _Self& {aka const std::_List_iterator<IO_Filter>&}’
+/usr/include/QtCore/qglobal.h:1989:13: note: bool operator!=(QBool, bool)
+/usr/include/QtCore/qglobal.h:1989:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QBool’
+/usr/include/QtCore/qglobal.h:1990:13: note: bool operator!=(bool, QBool)
+/usr/include/QtCore/qglobal.h:1990:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘bool’
+/usr/include/QtCore/qglobal.h:1991:13: note: bool operator!=(QBool, QBool)
+/usr/include/QtCore/qglobal.h:1991:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QBool’
+/usr/include/QtCore/qchar.h:389:13: note: bool operator!=(QChar, QChar)
+/usr/include/QtCore/qchar.h:389:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QChar’
+/usr/include/QtCore/qbytearray.h:533:13: note: bool operator!=(const QByteArray&, const QByteArray&)
+/usr/include/QtCore/qbytearray.h:533:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QByteArray&’
+/usr/include/QtCore/qbytearray.h:535:13: note: bool operator!=(const QByteArray&, const char*)
+/usr/include/QtCore/qbytearray.h:535:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QByteArray&’
+/usr/include/QtCore/qbytearray.h:537:13: note: bool operator!=(const char*, const QByteArray&)
+/usr/include/QtCore/qbytearray.h:537:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:911:13: note: bool operator!=(QString::Null, QString::Null)
+/usr/include/QtCore/qstring.h:911:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QString::Null’
+/usr/include/QtCore/qstring.h:912:13: note: bool operator!=(QString::Null, const QString&)
+/usr/include/QtCore/qstring.h:912:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘QString::Null’
+/usr/include/QtCore/qstring.h:913:13: note: bool operator!=(const QString&, QString::Null)
+/usr/include/QtCore/qstring.h:913:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QString&’
+/usr/include/QtCore/qstring.h:938:32: note: bool operator!=(const char*, const QString&)
+/usr/include/QtCore/qstring.h:938:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:951:32: note: bool operator!=(const char*, const QLatin1String&)
+/usr/include/QtCore/qstring.h:951:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:964:13: note: bool operator!=(const QLatin1String&, const QLatin1String&)
+/usr/include/QtCore/qstring.h:964:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QLatin1String&’
+/usr/include/QtCore/qstring.h:1203:13: note: bool operator!=(const QStringRef&, const QStringRef&)
+/usr/include/QtCore/qstring.h:1203:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qstring.h:1206:13: note: bool operator!=(const QString&, const QStringRef&)
+/usr/include/QtCore/qstring.h:1206:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QString&’
+/usr/include/QtCore/qstring.h:1210:13: note: bool operator!=(const QStringRef&, const QString&)
+/usr/include/QtCore/qstring.h:1210:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qstring.h:1213:13: note: bool operator!=(const QLatin1String&, const QStringRef&)
+/usr/include/QtCore/qstring.h:1213:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QLatin1String&’
+/usr/include/QtCore/qstring.h:1217:13: note: bool operator!=(const QStringRef&, const QLatin1String&)
+/usr/include/QtCore/qstring.h:1217:13: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qstring.h:1240:32: note: bool operator!=(const char*, const QStringRef&)
+/usr/include/QtCore/qstring.h:1240:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const char*’
+/usr/include/QtCore/qstring.h:1242:32: note: bool operator!=(const QStringRef&, const char*)
+/usr/include/QtCore/qstring.h:1242:32: note:   no known conversion for argument 1 from ‘std::list<IO_Filter>::iterator {aka std::_List_iterator<IO_Filter>}’ to ‘const QStringRef&’
+/usr/include/QtCore/qscopedpointer.h:180:13: note: template<class T, class Cleanup> bool operator!=(const QScopedPointer<T, Cleanup>&, const QScopedPointer<T, Cleanup>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_queue.h:290:5: note: template<class _Tp, class _Seq> bool std::operator!=(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_vector.h:1297:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_deque.h:1943:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_deque.h:266:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator!=(const std::_Deque_iterator<_Tp, _RefL, _PtrL>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_deque.h:259:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:1600:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::list<_Tp, _Alloc>&, const std::list<_Tp, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:281:5: note: template<class _Val> bool std::operator!=(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Val>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stream_iterator.h:137:5: note: template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator!=(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/streambuf_iterator.h:200:5: note: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2497:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2485:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2473:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/allocator.h:137:5: note: template<class _Tp> bool std::operator!=(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/allocator.h:132:5: note: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_T1>&, const std::allocator<_Tp>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/postypes.h:223:5: note: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_iterator.h:347:5: note: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_iterator.h:297:5: note: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_pair.h:214:5: note: template<class _T1, class _T2> bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+IO_Thread.cpp:66:12: error: base operand of ‘->’ has non-pointer type ‘IO_Filter’
+IO_Thread.cpp:67:10: error: base operand of ‘->’ has non-pointer type ‘IO_Filter’
+IO_Thread.cpp: At global scope:
+IO_Thread.cpp:91:24: error: no ‘void IO_Thread::cleaup()’ member function declared in class ‘IO_Thread’
+IO_Thread.hpp:83:20: error: ‘IO_Thread* IO_Thread::instance’ is private
+IO_Thread.cpp:97:12: error: within this context
+IO_Thread.cpp:97:1: error: ‘instance’ in ‘class IO_Thread’ does not name a type
+In file included from /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/list:64:0,
+                 from /usr/include/QtCore/qlist.h:51,
+                 from /usr/include/QtCore/qobject.h:50,
+                 from /usr/include/QtCore/qthread.h:45,
+                 from /usr/include/QtCore/QThread:1,
+                 from IO_Thread.hpp:33,
+                 from IO_Thread.cpp:31:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h: In instantiation of ‘std::_List_node<IO_Filter>’:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:145:46:   instantiated from ‘_Tp& std::_List_iterator<_Tp>::operator*() const [with _Tp = IO_Filter, std::_List_iterator<_Tp>::reference = IO_Filter&]’
+IO_Thread.cpp:66:9:   instantiated from here
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_list.h:108:11: error: cannot declare field ‘std::_List_node<IO_Filter>::_M_data’ to be of abstract type ‘IO_Filter’
+IO_Thread.hpp:55:7: note:   because the following virtual functions are pure within ‘IO_Filter’:
+IO_Thread.hpp:58:15: note: 	virtual bool IO_Filter::applies(LogLevel, char*)
+IO_Thread.hpp:59:15: note: 	virtual void IO_Filter::write(LogLevel, char*, char*)
+make[1]: *** [debug/IO_Thread.o] Error 1
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+IO_Thread.cpp:91:24: error: no ‘void IO_Thread::cleaup()’ member function declared in class ‘IO_Thread’
+IO_Thread.hpp:83:20: error: ‘IO_Thread* IO_Thread::instance’ is private
+IO_Thread.cpp:97:12: error: within this context
+IO_Thread.cpp:97:1: error: ‘instance’ in ‘class IO_Thread’ does not name a type
+make[1]: *** [debug/IO_Thread.o] Error 1
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+IO_Thread.hpp:83:20: error: ‘IO_Thread* IO_Thread::instance’ is private
+IO_Thread.cpp:97:12: error: within this context
+IO_Thread.cpp:97:1: error: ‘instance’ in ‘class IO_Thread’ does not name a type
+make[1]: *** [debug/IO_Thread.o] Error 1
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+IO_Thread.cpp:97:1: error: expected unqualified-id before ‘private’
+make[1]: *** [debug/IO_Thread.o] Error 1
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:9:5: error: ‘cout’ was not declared in this scope
+make[1]: *** [debug/main.o] Error 1
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make: *** [debug] Error 2
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:11:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:11:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/STDIO_Filter.o STDIO_Filter.cpp
+STDIO_Filter.cpp:40:6: warning: unused parameter ‘id’ [-Wunused-parameter]
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/IO_Thread.o IO_Thread.cpp
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:13:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:13:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/STDIO_Filter.o STDIO_Filter.cpp
+STDIO_Filter.cpp:40:6: warning: unused parameter ‘id’ [-Wunused-parameter]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:14:98: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:14:98: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:14:97: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:14:97: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+make debug 
+make -f Makefile.Debug
+make[1]: Entering directory `/home/charles/Programming/CornellCup/Codes/ROBD'
+g++ -c -m64 -pipe -g -Wall -W -D_REENTRANT -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt/mkspecs/linux-g++-64 -I. -I/usr/include/QtCore -I/usr/include/QtNetwork -I/usr/include/QtGui -I/usr/include/QtSql -I/usr/include -Idebug -o debug/main.o main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+main.cpp:14:95: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+g++ -m64 -Wl,-O1,--sort-common,--as-needed,-z,relro,--hash-style=gnu -o ROBD debug/STDIO_Filter.o debug/IO_Thread.o debug/main.o    -L/usr/lib -lQtSql -lQtGui -lQtNetwork -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9]\+\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'ROBD' && test -f ROBD.gdb-index && objcopy --add-section '.gdb_index=ROBD.gdb-index' --set-section-flags '.gdb_index=readonly' 'ROBD' 'ROBD' && rm -f ROBD.gdb-index || true
+make[1]: Leaving directory `/home/charles/Programming/CornellCup/Codes/ROBD'

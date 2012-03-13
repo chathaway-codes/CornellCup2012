@@ -1,0 +1,17 @@
+#include <QtCore>
+#include <QCoreApplication>
+
+#include "IO_Thread.hpp"
+#include "STDIO_Filter.hpp"
+
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication a(argc, argv);
+
+    // Add a filter...
+    IO_Thread::getInstance()->addFilter(new STDIO_Filter());
+    IO_Thread::getInstance()->log(WARNING, "MAIN", "This is a test of the message logging system");
+	
+    return a.exec();
+}

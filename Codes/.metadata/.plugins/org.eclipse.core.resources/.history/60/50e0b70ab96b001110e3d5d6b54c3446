@@ -1,0 +1,10 @@
+TEMPLATE = app
+TARGET = ROBD
+QT += core \
+    sql \
+    network
+HEADERS += IO_Thread.hpp
+SOURCES += IO_Thread.cpp \
+    main.cpp
+FORMS += 
+RESOURCES += 
