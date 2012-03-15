@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 #Sat Jan 28 21:01:01 EST 2012
 tipsAndTricks=true
 TASKS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
 platformState=1327801275356
+=======
+#Sun Mar 11 15:53:25 EDT 2012
+eclipse.preferences.version=1
+TASKS_FILTERS_MIGRATE=true
+tipsAndTricks=true
+platformState=1331495389054
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 quickStart=false
 PROBLEMS_FILTERS_MIGRATE=true

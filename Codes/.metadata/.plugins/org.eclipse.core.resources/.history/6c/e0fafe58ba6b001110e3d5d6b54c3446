@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 charles
+ * Copyright (C) 2012 Charles Hathaway
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
@@ -23,25 +23,53 @@
 /*
  * IO_Thread.hpp
  *
- *  Created on: Jan 28, 2012
- *  Author: charles
+ *  Created on: Mar 11, 2012
+ *  Author: Charles Hathaway
  */
 
 #ifndef IO_THREAD_HPP_
 #define IO_THREAD_HPP_
 
-#include <QtCore>
+#include <QThread>
+
+#include <queue>
+#include <list>
+
+enum LogLevel {
+	INFO,
+	WARNING,
+	ERROR,
+	SEVERE
+};
+
+class IO_Filter
+{
+public:
+	virtual bool applies(LogLevel level, char *id) = 0;
+	virtual void write(LogLevel level, char *id, char *m) = 0;
+};
 
 class IO_Thread : public QThread
 {
-private:
-protected:
 public:
-	static enum Priorities {
-		INFO,
-		WARNING,
-		SEVERE
-	};
+	void log(LogLevel level, char *m);
+protected:
+	IO_Thread();
+	void run();
+
+	void push_back(char *m);
+private:
+	std::queue<char *m> q;
+	std::list<IO_Filter*> filters;
+	bool running;
+
+	// Static functions
+public:
+	static IO_Thread getInstance();
+protected:
+private:
+	static IO_Thread *instance = NULL;
 };
+
 
 #endif /* IO_THREAD_HPP_ */

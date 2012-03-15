@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Fri Mar 02 16:51:23 EST 2012
+=======
+#Tue Mar 13 16:25:12 EDT 2012
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 buildConsole/keepLog=true
 eclipse.preferences.version=1
 buildConsole/logLocation=/home/charles/Programming/charles_cornellcup/Codes/.metadata/.plugins/org.eclipse.cdt.ui/ROBD.build.log

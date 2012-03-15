@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <workbench version="2.0" progressCount="33">
+=======
+<workbench progressCount="30" version="2.0">
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 <workbenchAdvisor/>
 <window maximized="true" x="0" y="0" width="1026" height="767">
 <fastViewData fastViewLocation="1024"/>
@@ -10,11 +14,19 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="166" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<<<<<<< HEAD
 <coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="82" y="30"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="132" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+=======
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="146" y="26"/>
+<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="76" y="26"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="112" y="26"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="122" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="26"/>
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -25,18 +37,26 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
+<<<<<<< HEAD
 <page label="Workspace - C/C++" aggregateWorkingSetId="Aggregate for window 1326844476672" focus="true">
+=======
+<page aggregateWorkingSetId="Aggregate for window 1326844476672" focus="true" label="Workspace - Qt C++">
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder expanded="2" appearance="1">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<<<<<<< HEAD
 <part id="1"/>
+=======
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 </presentation>
 </folder>
 </info>
 </editorArea>
+<<<<<<< HEAD
 <editor title="IO_Thread.hpp" name="IO_Thread.hpp" id="org.eclipse.cdt.ui.editor.CEditor" tooltip="ROBD/IO_Thread.hpp" partName="IO_Thread.hpp" workbook="DefaultEditorWorkbook" activePart="true" focus="true" path="/home/charles/Programming/charles_cornellcup/Codes/ROBD/IO_Thread.hpp">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ROBD/IO_Thread.hpp"/>
 <editorState selectionOffset="1107" selectionLength="0" selectionTopPixel="188" selectionHorizontalPixel="0"/>
@@ -44,19 +64,53 @@
 <editor title="main.cpp" name="main.cpp" id="org.eclipse.cdt.ui.editor.CEditor" tooltip="ROBD/main.cpp" partName="main.cpp" workbook="DefaultEditorWorkbook" path="/home/charles/Programming/charles_cornellcup/Codes/ROBD/main.cpp">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ROBD/main.cpp"/>
 <editorState selectionOffset="625" selectionLength="0" selectionTopPixel="92" selectionHorizontalPixel="0"/>
+=======
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" partName="main.cpp" path="/home/charles/Programming/CornellCup/Codes/ROBD/main.cpp" title="main.cpp" tooltip="ROBD/main.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ROBD/main.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="143" selectionTopPixel="0"/>
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 </editor>
 </editors>
 <views>
+<view id="com.trolltech.qtcppdesigner.views.signalsloteditorview" partName="Qt C++ Signal Slot Editor"/>
+<view id="org.eclipse.cdt.ui.typeHierarchy" partName="Type Hierarchy"/>
+<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
+<view id="com.trolltech.qtcppdesigner.views.objectinspectorview" partName="Qt C++ Object Inspector"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="876" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.priorityField="35" org.eclipse.ui.ide.resourceField="105"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="com.trolltech.qtcppdesigner.views.propertyeditorview" partName="Qt C++ Property Editor"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false"/>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
+<view id="com.trolltech.qtcppdesigner.views.actioneditorview" partName="Qt C++ Action Editor"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<<<<<<< HEAD
 <viewState partName="Problems" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity">
 <columnWidths org.eclipse.ui.ide.severityAndDescriptionField="350" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="951"/>
+=======
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="951" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -64,6 +118,7 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<<<<<<< HEAD
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -87,6 +142,19 @@
 <perspectives activePerspective="org.eclipse.cdt.ui.CPerspective" activePart="org.eclipse.cdt.ui.editor.CEditor">
 <perspective version="0.016" editorAreaVisible="1" editorAreaTrimState="2" fixed="0">
 <descriptor id="org.eclipse.cdt.ui.CPerspective" label="C/C++" class="org.eclipse.cdt.internal.ui.CPerspectiveFactory"/>
+=======
+<view id="org.eclipse.cdt.ui.callHierarchy" partName="Call Hierarchy"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="com.trolltech.qtcppdesigner.views.widgetboxview" partName="Qt C++ Widget Box"/>
+<view id="org.eclipse.cdt.ui.includeBrowser" partName="Include Browser"/>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.trolltech.qtcppproject.QtCppPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 <alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -111,6 +179,7 @@
 <alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
 <alwaysOnActionSet id="org.eclipse.cdt.ui.CodingActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.trolltech.qtcppproject.actionSet"/>
 <show_view_action id="org.eclipse.ui.console.ConsoleView"/>
 <show_view_action id="org.eclipse.search.ui.views.SearchView"/>
 <show_view_action id="org.eclipse.ui.views.ContentOutline"/>
@@ -199,10 +268,136 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.trolltech.qtcppproject.perspective.QtCppPerspectiveFactory" id="com.trolltech.qtcppproject.QtCppPerspective" label="Qt C++"/>
+<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.trolltech.qtcppproject.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.buildConfigActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.ConvertToMakeWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewMakeFromExisting"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewCWizard1"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewCWizard2"/>
+<new_wizard_action id="org.eclipse.linuxtools.cdt.autotools.ui.wizards.conversionWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="com.trolltech.qtcppproject.wizards.NewQtClassWizard"/>
+<new_wizard_action id="com.trolltech.qtcppproject.wizards.QtConsoleProjectWizard"/>
+<new_wizard_action id="com.trolltech.qtcppproject.wizards.QtGuiProjectWizard"/>
+<new_wizard_action id="com.trolltech.qtcppproject.wizards.QrcFileWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.trolltech.qtcppdesigner.views.widgetboxview"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.cdt.ui.includeBrowser"/>
+<view id="org.eclipse.cdt.ui.callHierarchy"/>
+<view id="org.eclipse.cdt.ui.typeHierarchy"/>
+<view id="org.eclipse.cdt.debug.ui.executablesView"/>
+<view id="com.trolltech.qtcppdesigner.views.actioneditorview"/>
+<view id="com.trolltech.qtcppdesigner.views.signalsloteditorview"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.trolltech.qtcppdesigner.views.propertyeditorview"/>
+<view id="com.trolltech.qtcppdesigner.views.objectinspectorview"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.trolltech.qtcppdesigner.views.widgetboxview" label="Qt C++ Widget Box"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1428" ratioRight="476" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="476" ratioRight="1428" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.7497612" ratioLeft="785" ratioRight="262" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.cdt.ui.includeBrowser" label="Include Browser"/>
+<page content="org.eclipse.cdt.ui.callHierarchy" label="Call Hierarchy"/>
+<page content="org.eclipse.cdt.ui.typeHierarchy" label="Type Hierarchy"/>
+<page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
+<page content="com.trolltech.qtcppdesigner.views.actioneditorview" label="Qt C++ Action Editor"/>
+<page content="com.trolltech.qtcppdesigner.views.signalsloteditorview" label="Qt C++ Signal Slot Editor"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.75" ratioLeft="1071" ratioRight="357" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.trolltech.qtcppdesigner.views.propertyeditorview" label="Qt C++ Property Editor"/>
+<page content="com.trolltech.qtcppdesigner.views.objectinspectorview" label="Qt C++ Object Inspector"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
+<<<<<<< HEAD
 <editor id="org.eclipse.cdt.ui.editor.CEditor" factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ROBD_Testing/src/WorkerThread.hpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ROBD_Testing/src/main.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutomakeEditor" path="/ROBD_Testing/src/Makefile.am"/>
@@ -366,6 +561,173 @@
 </item>
 <item active="true" historyLabel="IO_Thread.hpp" index="9">
 <position x="1237" y="17" info="not_deleted"/>
+=======
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.linuxtools.cdt.autotools.ui.editor.autoconf" path="/QtTesting/configure.ac"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ROBD_Testing/AUTHORS"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ROBD_Testing/COPYING"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ROBD_Testing/missing"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ROBD_Testing/README"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ROBD_Testing/NEWS"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ROBD_Testing/src/ROBD_Testing.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ROBD_Testing/src/Worker_Thread"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ROBD_Testing/src/WorkerThread.hpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ROBD_Testing/src/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutomakeEditor" path="/ROBD_Testing/src/Makefile.am"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.linuxtools.cdt.autotools.ui.editor.autoconf" path="/ROBD_Testing/configure.ac"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ROBD_Testing/src/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.linuxtools.cdt.autotools.ui.editors.AutomakeEditor" path="/ROBD_Testing/src/Makefile.am"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.linuxtools.cdt.autotools.ui.editor.autoconf" path="/ROBD_Testing/configure.ac"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ROBD/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/ROBD/ROBD"/>
+</editors>
+<item historyLabel="configure.ac" index="0">
+<position info="not_deleted" x="429" y="0"/>
+</item>
+<item historyLabel="AUTHORS" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="COPYING" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="missing" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="README" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="NEWS" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ROBD_Testing.cpp" index="6">
+<position info="not_deleted" x="0" y="445"/>
+</item>
+<item historyLabel="Worker_Thread" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1309" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1511" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1365" y="7"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1285" y="25"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1205" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1285" y="25"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1416" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1365" y="7"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1511" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1438" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1282" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1511" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1305" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1221" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1272" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="Makefile.am" index="10">
+<position info="not_deleted" x="70" y="0"/>
+</item>
+<item historyLabel="configure.ac" index="11">
+<position info="not_deleted" x="242" y="0"/>
+</item>
+<item historyLabel="Makefile.am" index="10">
+<position info="not_deleted" x="77" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="configure.ac" index="11">
+<position info="not_deleted" x="294" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="Makefile.am" index="10">
+<position info="not_deleted" x="77" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1514" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="9">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1514" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1334" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1399" y="0"/>
+</item>
+<item historyLabel="WorkerThread.hpp" index="8">
+<position info="not_deleted" x="1511" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Makefile.am" index="13"/>
+<item historyLabel="configure.ac" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="15">
+<position info="not_deleted" x="143" y="0"/>
+</item>
+<item historyLabel="ROBD" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="15">
+<position info="not_deleted" x="143" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="15">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item active="true" historyLabel="main.cpp" index="15">
+<position info="not_deleted" x="86" y="16"/>
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -385,6 +747,7 @@
 </trimLayout>
 </window>
 <mruList>
+<<<<<<< HEAD
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" tooltip="ROBD/main.cpp">
 <persistable path="/ROBD/main.cpp"/>
 </file>
@@ -409,6 +772,14 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="globals.hpp" tooltip="ROBD/globals.hpp">
 <persistable path="/ROBD/globals.hpp"/>
 </file>
+=======
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="ROBD" tooltip="ROBD/ROBD">
+<persistable path="/ROBD/ROBD"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" tooltip="ROBD/main.cpp">
+<persistable path="/ROBD/main.cpp"/>
+</file>
+>>>>>>> b0e12560bb666ea7a699bd170c8d25e7fccfd164
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.linuxtools.cdt.autotools.ui.editor.autoconf" name="configure.ac" tooltip="ROBD_Testing/configure.ac">
 <persistable path="/ROBD_Testing/configure.ac"/>
 </file>

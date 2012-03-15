@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 charles
+ * Copyright (C) 2012 Charles Hathaway
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
@@ -21,16 +21,30 @@
  */
 
 /*
- * Worker_Thread.hpp
+ * IO_Thread.cpp
  *
- *  Created on: Jan 28, 2012
- *  Author: charles
+ *  Created on: Mar 11, 2012
+ *  Author: Charles Hathaway
  */
 
-#ifndef WORKER_THREAD_HPP_
-#define WORKER_THREAD_HPP_
 
+#include "IO_Thread.hpp"
 
+IO_Thread::IO_Thread()
+	: running(false)
+{
+	QThread();
+}
 
+void IO_Thread::run()
+{
+	if(running)
+		return;
+	running = true;
 
-#endif /* WORKER_THREAD_HPP_ */
+	while()
+	{
+
+	}
+}
+

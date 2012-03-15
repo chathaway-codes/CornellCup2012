@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 charles
+ * Copyright (C) 2012 Charles Hathaway
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
@@ -21,17 +21,66 @@
  */
 
 /*
- * main.cpp
+ * IO_Thread.hpp
  *
- *  Created on: Jan 28, 2012
- *  Author: charles
+ *  Created on: Mar 11, 2012
+ *  Author: Charles Hathaway
  */
 
-#include "IO_Thread.hpp"
+#ifndef IO_THREAD_HPP_
+#define IO_THREAD_HPP_
 
-int main(int argc, char **args)
+#include <QThread>
+
+#include <queue>
+#include <list>
+
+enum LogLevel {
+	INFO,
+	WARNING,
+	ERROR,
+	SEVERE
+};
+
+struct Message
 {
-	return 0;
-}
+	Message(Level l, char *i, char *m)
+	 : level(l), id(i), message(m) {
+		// Left blank
+	}
+	LogLevel level;
+	char *id, *message;
+};
+
+class IO_Filter
+{
+public:
+	virtual bool applies(LogLevel level, char *id) = 0;
+	virtual void write(LogLevel level, char *id, char *m) = 0;
+};
+
+class IO_Thread : public QThread
+{
+public:
+	void log(LogLevel level, char *id, char *m);
+protected:
+	IO_Thread();
+	void run();
+
+	void push_back(Message *m);
+private:
+	std::queue<Message*> messages;
+	std::list<IO_Filter*> filters;
+	bool running;
+
+	// Static functions
+public:
+	static IO_Thread *getInstance();
+	public void cleanup();
+protected:
+private:
+	static IO_Thread *instance = NULL;
+};
 
 
+#endif /* IO_THREAD_HPP_ */
